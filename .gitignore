@@ -1,8 +1,23 @@
+# Byte-compiled / cache files
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Environment & secrets
 .env
+*.env
+
+# Data
 data/raw/
 data/processed/
 models/
-.DS_Store
+outputs/
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# Power BI
 *.pbix
+
+# OS metadata
+.DS_Store
+Thumbs.db
