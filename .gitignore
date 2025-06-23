@@ -1,23 +1,43 @@
 # Byte-compiled / cache files
 __pycache__/
 *.py[cod]
+*.pyo
 
-# Environment & secrets
+# Environment variables and secrets
 .env
 *.env
 
-# Data
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Virtual environment
+venv/
+env/
+
+# Model binaries
+models/*.h5
+models/*.pkl
+models/*.joblib
+
+# Data files
 data/raw/
 data/processed/
-models/
-outputs/
-
-# Jupyter/IPython
-.ipynb_checkpoints/
+data/external/
 
 # Power BI
 *.pbix
 
-# OS metadata
-.DS_Store
-Thumbs.db
+# VS Code
+.vscode/
+
+# Log files
+*.log
+
+# Build artifacts
+*.egg-info/
+dist/
+build/
